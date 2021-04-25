@@ -6,7 +6,8 @@ This project can be ongoing and you can add to it as you progress through the co
 # Setup
 
 1. Clone or Download this repository to you local machine. It contains some sample images that you can use, as well as a screenshot of the site you'll be building.  Grab what you need then delete the repo from your local machine. No need to keep it.
-1. Create a repository using Github Classrooom. (You will be provided with the link).  This is where you will build your portfolio. **You should also fork the repository so you have a copy for yourself**. Later, we can transfer ownership to you.
+
+<!---1. Create a repository using Github Classrooom. (You will be provided with the link).  This is where you will build your portfolio. **You should also fork the repository so you have a copy for yourself**. Later, we can transfer ownership to you.-->
 
 # Building the Site
 
