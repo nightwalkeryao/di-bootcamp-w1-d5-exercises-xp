@@ -1,6 +1,6 @@
 # Portfolio Project
 
-In this project, you will build a portfolio website using plain HTML and CSS (Bootstrap 4).  
+In this project, you will build a portfolio website using plain HTML and CSS (Bootstrap 5).  
 This project can be ongoing and you can add to it as you progress through the course.  At the end, you could have a nice personal website showcasing your portfolio, links to your social media and github accounts and a good documentation and proof of your journey and skills as a programmer.
 
 # Setup
