@@ -1,0 +1,145 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+.bg-warning, .btn-warning, .navbar-nav a{
+	background-color: #fd7e14 !important;
+	color: white !important;
+}
+.text-warning{
+	color: #fd7e14 !important;
+}
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Raleway";
+}
+.hero {
+  background-image: url("./images/headerback.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  /* width: 100vw; */
+  height: 90vh;
+}
+#overlay {
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.915); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: default; /* Add a pointer on hover */
+}
+.intro {
+  margin: auto;
+  max-width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 16pt;
+  text-align: justify;
+}
+.about-text {
+  max-width: 500px;
+  font-size: 13pt;
+  text-align: justify;
+}
+section > .title{
+	margin-top: 6rem;
+	font-size: 33pt;
+	font-weight: 700;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#portfolio .project-item{
+	min-width: 30%;
+	height: 40vh;
+	border-radius: 4px;
+	background-size: contain;
+	background-position: top center;
+}
+.project-1{
+	background-image: url(./images/portfolio/port1.png);
+}
+.project-2{
+	background-image: url(./images/portfolio/port3.png);
+}
+.project-3{
+	background-image: url(./images/portfolio/port6.png);
+}
+.project-4{
+	background-image: url(./images/portfolio/port7.png);
+}
+.project-5{
+	background-image: url(./images/portfolio/port8.png);
+}
+.project-6{
+	background-image: url(./images/portfolio/port11.png);
+}
+.project-7{
+	background-image: url(./images/portfolio/port13.png);
+}
+.project-8{
+	background-image: url(./images/portfolio/Classic.jpg);
+}
+.project-9{
+	background-image: url(./images/portfolio/electric.png);
+}
+#blog .card-img-top{
+	background-size: cover;
+	background-position: center center;
+	height: 150px;
+	width: 100%;
+}
+.art-1{
+	background-image: url('./images/blog/imag2.jpg');
+}
+.art-2{
+	background-image: url('./images/blog/polit.jpg');
+}
+.art-3{
+	background-image: url('./images/blog/images.jpg');
+}
+.name{
+	text-align: center;
+	font-size: 13pt;
+	position: relative;
+	height: 30px;
+}
+.name span{
+	color: white;
+	position: absolute;
+	width: 250px;
+	display: block;
+	text-align: center;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+.name::after{
+	position: absolute;
+	width: 250px;
+	height: 30px;
+	background-color: #fd7e14;
+	content: "";
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	border-bottom-left-radius: 100%;
+}
+#team img{
+	width: 250px;
+	border-radius: 4px 4px 0 0;
+}
+.form{
+	min-width: 450px;
+}
